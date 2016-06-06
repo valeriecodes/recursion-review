@@ -164,6 +164,7 @@ def countdown(n):
 Exercise if we have time: rewrite previous functions with iteration.
 
 Resources:
+
 http://introcs.cs.princeton.edu/java/23recursion/
 https://en.wikipedia.org/wiki/Recursion_(computer_science)
 https://www.khanacademy.org/computing/computer-science/algorithms/recursive-algorithms/a/recursion
