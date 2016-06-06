@@ -113,7 +113,7 @@ Let's spend 10 minutes on this.
 
 ###Desired output
 ```
->>> fibonacci(5)
+>>> fibonacci(6)
 8
 ```
 
