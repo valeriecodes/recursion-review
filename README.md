@@ -1,4 +1,5 @@
 # Recursion Review
+This repo is a work in progress with resources to learn recursion. Have questions or feedback? Get in touch with me on Twitter, [@valeriecodes](https://twitter.com/valeriecodes) or via email at [valerie.woolard@gmail.com](mailto:valerie.woolard@gmail.com)
 
 ## What is recursion?
 Solving a problem by solving smaller versions of the same problem. A recursive function is one that calls itself.
