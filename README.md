@@ -16,8 +16,9 @@ By the same token, a recursive function has:
 * A **reduction step**. This relates the problem to a smaller subproblem of the same function. (Converges to the base case enventually)
 
 ###Fun with recursion
-The first P in PHP stands for PHP, PHP: Hypertext Preprocessor (https://en.wikipedia.org/wiki/PHP)
-The G in GNU stands for GNU, "GNU's not Unix" (https://en.wikipedia.org/wiki/GNU_Project)
+
+* The first P in PHP stands for PHP, PHP: Hypertext Preprocessor (https://en.wikipedia.org/wiki/PHP)
+* The G in GNU stands for GNU, "GNU's not Unix" (https://en.wikipedia.org/wiki/GNU_Project)
 
 Google easter egg:
 ![Recursion!](http://65.media.tumblr.com/bad657fe04a18ebc7ffdf4ef28c498bd/tumblr_msv4e7mMOy1qea4hso1_1280.png)
