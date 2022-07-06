@@ -16,7 +16,7 @@ By the same token, a recursive function has:
 * A **base case**. This is a defined solution that will not call the function again. (This is where the function stops.)
 * A **reduction step**. This relates the problem to a smaller subproblem of the same function. (Converges to the base case enventually)
 
-###Fun with recursion
+### Fun with recursion
 
 * The first P in PHP stands for PHP, PHP: Hypertext Preprocessor (https://en.wikipedia.org/wiki/PHP)
 * The G in GNU stands for GNU, "GNU's not Unix" (https://en.wikipedia.org/wiki/GNU_Project)
@@ -29,7 +29,7 @@ Let's think about writing a recursive program that performs a simple countdown.
 What is the base case?
 What is the reduction step?
 
-###Method signature:
+### Method signature:
 ```
 def countdown(n):
   # method body goes here
@@ -38,7 +38,7 @@ def countdown(n):
 10 minutes for working.
 Want to use Python? Try http://www.skulpt.org/
 
-###Desired output
+### Desired output
 ```
 >>> countdown(10)
 10
@@ -56,7 +56,7 @@ BLASTOFF!
 
 Go over the solutions together.
 
-##Pitfalls
+## Pitfalls
 
 * Make sure that you have a base case and that you will always hit it. Otherwise the program will loop infinitely.
   * What's wrong here?
@@ -70,7 +70,7 @@ Go over the solutions together.
   ```
 * Make sure that your problem is actually getting smaller each time.
 
-##Next problem: Factorial
+## Next problem: Factorial
 Remember these? https://en.wikipedia.org/wiki/Factorial
 > 3! = 3 * 2 * 1
 
@@ -91,19 +91,19 @@ def factorial(n):
 Let's spend 10 minutes on this. Let's not worry about negative numbers for now.
 Need that site again? It's http://www.skulpt.org/
 
-###Desired output
+### Desired output
 ```
 >>> factorial(5)
 120
 ```
 
-##Next up: Fibonacci Sequence
+## Next up: Fibonacci Sequence
 ![Fibonacci Sequence formula](http://www.roulette-systems.org/wp-content/uploads/2012/06/fibonacciformula.jpg)
 
 Write a function that returns the nth Fibonacci number.
 Base case? Reduction step?
 
-###Method signature:
+### Method signature:
 ```
 def fibonacci(n):
   # method body goes here
@@ -113,7 +113,7 @@ Remember: `fibonacci(0)` is 0 and `fibonacci(1)` is 1
 
 Let's spend 10 minutes on this.
 
-###Desired output
+### Desired output
 ```
 >>> fibonacci(6)
 8
@@ -126,12 +126,12 @@ Other pitfalls
 * Redundant calculations
 * Stack overflows
 
-##Binary search
+## Binary search
 Given a sorted array and a number, write a recursive function that returns true if the number is in the array and false if not.
 
 Base case? Reduction step?
 
-###Method signature:
+### Method signature:
 ```
 def search(arr, n):
   # method body goes here
@@ -139,7 +139,7 @@ def search(arr, n):
 
 15 minutes to work.
 
-###Desired output
+### Desired output
 ```
 >>> search([1, 2, 3], 3)
 True
@@ -155,7 +155,7 @@ Iteration in mathematics may refer to the process of iterating a function i.e. a
 
 Recursive functions are often easier to write with iteration. Simply put, an iteration is a for-loop.
 
-###Countdown program in iterative form
+### Countdown program in iterative form
 ```
 def countdown(n):
   for i in range(n, 0, -1):
